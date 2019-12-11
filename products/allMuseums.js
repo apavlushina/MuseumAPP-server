@@ -1486,7 +1486,7 @@ const initState = [
     Id: 881,
     MuseumId: 178,
     Title: "GORREDIJK",
-    SubTitle: "Museum Opsterlân",
+    SubTitle: "MuseumOpsterlan",
     Description: "x",
     ImageUrl:
       "//cdn.museum.nl/cards/700x394/a0d2eb2a-517d-4176-91d2-be612fcec0e6\\collectie 2011kleding aristocratie.jpg",

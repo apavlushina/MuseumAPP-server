@@ -1,9 +1,9 @@
 const { Router } = require("express");
-const Product = require("./model.js");
-
+const Museum = require("./model");
 const router = new Router();
 
 router.get("/museums", (_req, res, next) => {
+  console.log("we have get request");
   Museum.findAll()
     .then(museums => res.send(museums))
     .catch(err => next(err));
