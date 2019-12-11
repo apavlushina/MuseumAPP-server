@@ -3,43 +3,41 @@ const Product = require("./model.js");
 
 const router = new Router();
 
-router.get("/products", (_req, res, next) => {
-  Product.findAll({
-    include: [Image]
-  })
-    .then(products => res.send(products))
+router.get("/museums", (_req, res, next) => {
+  Museum.findAll()
+    .then(museums => res.send(museums))
     .catch(err => next(err));
 });
 
-router.post("/products", (req, res, next) => {
-  Product.create(req.body)
-    .then(console.log(req.body))
-    .then(product => res.json(product))
-    .catch(err => next(err));
-});
+// router.post("/products", (req, res, next) => {
+//   Product.create(req.body)
+//     .then(console.log(req.body))
+//     .then(product => res.json(product))
+//     .catch(err => next(err));
+// });
 
-router.get("/products/:productId", (req, res, next) => {
-  Product.findByPk(req.params.productId)
-    .then(product => {
-      if (!product) {
-        res.status(404).end();
-      } else {
-        res.json(product);
-      }
-    })
-    .catch(err => next(err));
-});
+// router.get("/products/:productId", (req, res, next) => {
+//   Product.findByPk(req.params.productId)
+//     .then(product => {
+//       if (!product) {
+//         res.status(404).end();
+//       } else {
+//         res.json(product);
+//       }
+//     })
+//     .catch(err => next(err));
+// });
 
-router.put("/products/:productId", (req, res, next) => {
-  Product.findByPk(req.params.productId)
-    .then(product => {
-      if (product) {
-        product.update(req.body).then(product => res.json(product));
-      } else {
-        res.status(404).end();
-      }
-    })
-    .catch(err => next(err));
-});
+// router.put("/products/:productId", (req, res, next) => {
+//   Product.findByPk(req.params.productId)
+//     .then(product => {
+//       if (product) {
+//         product.update(req.body).then(product => res.json(product));
+//       } else {
+//         res.status(404).end();
+//       }
+//     })
+//     .catch(err => next(err));
+// });
 
 module.exports = router;
