@@ -1,6 +1,6 @@
 const initState = require("./allMuseums.js");
 const request = require("superagent");
-const myKey = require("../key");
+const myKey = require("./key");
 
 const Sequelize = require("sequelize");
 const db = require("../db");
