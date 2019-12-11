@@ -1,5 +1,6 @@
 const initState = require("./allMuseums.js");
 const request = require("superagent");
+const myKey = require("../key");
 
 const Sequelize = require("sequelize");
 const db = require("../db");
@@ -19,7 +20,7 @@ Museum.sync()
     console.log("create raws", initState[1]);
     for (let i = 3; i < 5; i++) {
       const coord = await request(
-        `https://maps.googleapis.com/maps/api/geocode/json?address=${initState[i].SubTitle}+${initState[i].Title}&key=AIzaSyAjeveDvwPThAT_jpTrQd59uUjB_PYKiEM`
+        `https://maps.googleapis.com/maps/api/geocode/json?address=${initState[i].SubTitle}+${initState[i].Title}&key=${myKey}`
       ).then(response => response.body.results[0].geometry.location);
       console.log("coord", coord);
       const lat = coord.lat;
