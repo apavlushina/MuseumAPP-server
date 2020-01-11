@@ -16,17 +16,17 @@ router.get("/museums", (_req, res, next) => {
 //     .catch(err => next(err));
 // });
 
-// router.get("/products/:productId", (req, res, next) => {
-//   Product.findByPk(req.params.productId)
-//     .then(product => {
-//       if (!product) {
-//         res.status(404).end();
-//       } else {
-//         res.json(product);
-//       }
-//     })
-//     .catch(err => next(err));
-// });
+router.get("/museums/:museumId", (req, res, next) => {
+  Museum.findByPk(req.params.museumId)
+    .then(museum => {
+      if (!museum) {
+        res.status(404).end();
+      } else {
+        res.json(museum);
+      }
+    })
+    .catch(err => next(err));
+});
 
 // router.put("/products/:productId", (req, res, next) => {
 //   Product.findByPk(req.params.productId)

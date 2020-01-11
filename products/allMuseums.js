@@ -29,7 +29,7 @@ const initState = [
     Id: 852,
     MuseumId: 1041,
     Title: "GEERTRUIDENBERG",
-    SubTitle: "Museum 'De Roos'",
+    SubTitle: "Museum De Roos",
     Description: "x",
     ImageUrl:
       "//cdn.museum.nl/cards/700x394/9f488528-97b3-4550-a182-aff930b51522\\logo de roos.jpg",
@@ -75,7 +75,7 @@ const initState = [
     Id: 1006,
     MuseumId: 192,
     Title: "ROTTERDAM",
-    SubTitle: "Belasting & Douane Museum",
+    SubTitle: "Belasting Douane Museum",
     Description: "x",
     ImageUrl:
       "//cdn.museum.nl/cards/700x394/59185f5c-7fa1-4006-b89e-5ea49c7d10cd\\het oor.jpg",
@@ -1533,7 +1533,7 @@ const initState = [
     Id: 409,
     MuseumId: 357,
     Title: "OTTERLO",
-    SubTitle: "Kröller-Müller Museum",
+    SubTitle: "Kroller-Muller Museum",
     Description: "x",
     ImageUrl:
       "//cdn.museum.nl/cards/700x394/52df3101-325c-4063-9669-3bbee242fedf\\A_Overzicht_beeldentuin_PT2 Vergroot.jpg",
@@ -1722,7 +1722,7 @@ const initState = [
     Id: 9031,
     MuseumId: 1277,
     Title: "DORDRECHT",
-    SubTitle: "Het Dordts Patriciërshuis",
+    SubTitle: "Het Dordts Patriciershuis",
     Description: "x",
     ImageUrl:
       "//cdn.museum.nl/cards/700x394/aaa0f17d-06e3-4885-954c-bc2ff8f95478\\copyright mascha joustra_lestudio35-8088.jpg",
@@ -2003,7 +2003,7 @@ const initState = [
     Id: 704,
     MuseumId: 737,
     Title: "DOETINCHEM",
-    SubTitle: "Openbaar Vervoer & Speelgoed M",
+    SubTitle: "Openbaar Vervoer Speelgoed M",
     Description: "x",
     ImageUrl:
       "//cdn.museum.nl/cards/700x394/d813f752-9dc6-4dd7-b766-5f8f3b90c6ce\\Openbaar Vervoer Museum.jpg",
@@ -3816,7 +3816,7 @@ const initState = [
     Id: 884,
     MuseumId: 234,
     Title: "STEVENSWEERT",
-    SubTitle: "Streekmuseum Stevensweert Ohé ",
+    SubTitle: "Streekmuseum Stevensweert Ohe ",
     Description: "x",
     ImageUrl:
       "//cdn.museum.nl/cards/700x394/c0a03300-cd69-414a-a9ee-03b5a057dc76\\Streekuseum Stevensweert-Ohé en Laak.jpg",
@@ -4870,7 +4870,7 @@ const initState = [
     Id: 382,
     MuseumId: 1115,
     Title: "VALKENBURG",
-    SubTitle: "Kasteelruïne - Fluweelengrot V",
+    SubTitle: "Kasteelruine - Fluweelengrot V",
     Description:
       "Kasteelru&iuml;ne en Fluweelengrot Valkenburg\r\n\r\n\r\nOntdek de geheimen van deze unieke middeleeuwse dubbelattractie?!\r\n\r\nRidders en jonkvrouwen, belegeraars en veroveraars, geheime vluchtgangen naar het onderaards gangenstels",
     ImageUrl:
@@ -4895,7 +4895,7 @@ const initState = [
     Id: 252,
     MuseumId: 1003,
     Title: "DREISCHOR",
-    SubTitle: "Streek & Landbouwmuseum Goeman",
+    SubTitle: "Streek Landbouwmuseum Goeman",
     Description: "x",
     ImageUrl: "//cdn.museum.nl/cards/700x394/27meigoemanszorg.jpg",
     HasPromotions: false,
@@ -4963,7 +4963,7 @@ const initState = [
     Id: 568,
     MuseumId: 308,
     Title: "SLOTEN",
-    SubTitle: "Museum Stedhûs Sleat",
+    SubTitle: "Museum Stedhus Sleat",
     Description:
       "Museum Stedhûs Sleat heeft een prachtige collectie voorwerpen die te maken hebben met de geschiedenis van Sloten. De toverlantaarncollectie op zolder is uniek in Nederland.",
     ImageUrl: "//cdn.museum.nl/cards/700x394/musnieuw/MuseumSloten.jpg",
@@ -7089,7 +7089,7 @@ const initState = [
     Id: 221,
     MuseumId: 14,
     Title: "LEEUWARDEN",
-    SubTitle: "Natuurmuseum Fryslân",
+    SubTitle: "Natuurmuseum Fryslan",
     Description: "x",
     ImageUrl:
       "//cdn.museum.nl/cards/700x394/2d931655-be63-46e0-aced-d19c37044f2a\\M1021 Natuurmuseum Fryslan.jpg",
@@ -7136,7 +7136,7 @@ const initState = [
     Id: 834,
     MuseumId: 280,
     Title: "IJSSELSTEIN",
-    SubTitle: "mij | museum ijsselstein",
+    SubTitle: "mij museum ijsselstein",
     Description: "x",
     ImageUrl:
       "//cdn.museum.nl/cards/700x394/6527c17e-abe8-4b80-acce-09f2d65f9ec6\\Nicolas Dings, Mnemosyne, 1996.jpg",
@@ -7697,7 +7697,7 @@ const initState = [
     Id: 572,
     MuseumId: 22,
     Title: "MODDERGAT",
-    SubTitle: "'t Fiskershúske",
+    SubTitle: "'t Fiskershuske",
     Description: "x",
     ImageUrl:
       "//cdn.museum.nl/cards/700x394/b782f0d5-ad32-426d-835c-6f7fccf24294\\JPEG_00002.jpg",
@@ -7834,7 +7834,7 @@ const initState = [
     Id: 1063,
     MuseumId: 383,
     Title: "HAARLEM",
-    SubTitle: "Dolhuys | museum van de geest",
+    SubTitle: "Dolhuys museum",
     Description: "x",
     ImageUrl:
       "//cdn.museum.nl/cards/700x394/f8220091-41d0-48c4-a0e8-c3eab4ee8a05\\Dolhuys-museum-wat is normaal.jpg",
@@ -8478,7 +8478,7 @@ const initState = [
     Id: 1046,
     MuseumId: 287,
     Title: "ZUIDWOLDE",
-    SubTitle: "Museum De Wemme",
+    SubTitle: "Burg.Tonckensstraat 49",
     Description: "x",
     ImageUrl:
       "//cdn.museum.nl/cards/700x394/e82dd82a-2459-4f07-87af-b090bbf54a43\\Wemme aanzicht (8) (2014_11_20 12_57_24 UTC).jpg",
@@ -8877,7 +8877,7 @@ const initState = [
     Id: 27,
     MuseumId: 315,
     Title: "HEERENVEEN",
-    SubTitle: "Museum Belvédère",
+    SubTitle: "Museum Belvedere",
     Description: "x",
     ImageUrl: "//cdn.museum.nl/cards/700x394/05B2G2849.jpg",
     HasPromotions: false,
@@ -11273,7 +11273,7 @@ const initState = [
     Id: 702,
     MuseumId: 971,
     Title: "ROTTERDAM",
-    SubTitle: "Museum Rotterdam ’40-’45 NU",
+    SubTitle: "Museum Rotterdam 40-45 NU",
     Description: "x\r\n\r\n",
     ImageUrl:
       "//cdn.museum.nl/cards/700x394/3998e3d1-304b-49ff-87b6-c1f3e2c67132\\Museum Rotterdam 40 45 NU.jpg",
@@ -11416,7 +11416,7 @@ const initState = [
     Id: 995,
     MuseumId: 604,
     Title: "NOORDBROEK",
-    SubTitle: "Koren- en Pelmolen 'De Noordst",
+    SubTitle: "Koren en Pelmolen 'De Noordst",
     Description:
       "Deze stellingmolen is in 1989 volledig gerestaureerd. In de molen wordt nog regelmatig graan gemalen.\r\n\r\n",
     ImageUrl: "//cdn.museum.nl/cards/700x394/musnieuw/Noordstar.jpg",
@@ -11462,8 +11462,8 @@ const initState = [
     },
     Id: 1067,
     MuseumId: 577,
-    Title: "BEETS",
-    SubTitle: "Museumgemaal Sudergemaal",
+    Title: "NIJ BEETS",
+    SubTitle: "Ripen 3",
     Description:
       "Het Sudergemaal is het oudste elektrische gemaal in Frysl&acirc;n. Op hoogtijdagen verzet het gemaal weer water via de immense, gerestaureerde, pompen. In het gemaal is altijd een wisselende expositie te zien van beeldend ku",
     ImageUrl: "//cdn.museum.nl/cards/700x394/sudergemaal3.JPG",
@@ -11533,7 +11533,7 @@ const initState = [
     Id: 797,
     MuseumId: 962,
     Title: "OUDDORP ZH",
-    SubTitle: "RTM v/h Rotterdamsche Tramweg ",
+    SubTitle: "RTM vh Rotterdamsche Tramweg ",
     Description:
       "R.T.M. v/h Rotterdamsche Tramweg Maatschappij\r\n\r\n\r\nIn het museum vind je trammaterieel van de voormalige Rotterdamsche Tramweg Maatschappij. Dit bestaat uit stoom- en dieseltractie-voertuigen, teakhouten personenwagens, goed",
     ImageUrl:
