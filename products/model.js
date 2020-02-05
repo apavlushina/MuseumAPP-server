@@ -21,19 +21,20 @@ Museum.sync()
   .then(async () => {
     for (let i = 0; i < initState.length; i++) {
       for (let i = 0; i < 10; i++) {
-      const coord = await request(
-        `https://maps.googleapis.com/maps/api/geocode/json?address=${initState[i].SubTitle}+${initState[i].Title}&key=${myKey}`
-      ).then(response => response.body.results[0].geometry.location);
-      const lat = coord.lat;
-      const lng = coord.lng;
-      await Museum.create({
-        id: initState[i].MuseumId,
-        title: initState[i].SubTitle,
-        city: initState[i].Title,
-        url: initState[i].ImageUrl,
-        lat: lat,
-        lng: lng
-      });
+        const coord = await request(
+          `https://maps.googleapis.com/maps/api/geocode/json?address=${initState[i].SubTitle}+${initState[i].Title}&key=${myKey}`
+        ).then(response => response.body.results[0].geometry.location);
+        const lat = coord.lat;
+        const lng = coord.lng;
+        await Museum.create({
+          id: initState[i].MuseumId,
+          title: initState[i].SubTitle,
+          city: initState[i].Title,
+          url: initState[i].ImageUrl,
+          lat: lat,
+          lng: lng
+        });
+      }
     }
   })
   .catch(console.error);
