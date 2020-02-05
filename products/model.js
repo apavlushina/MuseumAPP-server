@@ -20,6 +20,7 @@ Museum.sync()
   .then(() => console.log("Model synchronization completes"))
   .then(async () => {
     for (let i = 0; i < initState.length; i++) {
+      for (let i = 0; i < 10; i++) {
       const coord = await request(
         `https://maps.googleapis.com/maps/api/geocode/json?address=${initState[i].SubTitle}+${initState[i].Title}&key=${myKey}`
       ).then(response => response.body.results[0].geometry.location);
